@@ -25,7 +25,7 @@ Abaixo está a representação visual do fluxo principal de agendamento automati
 ### Fluxo Principal
 
 <p align="center">
-    <img src="images/fluxo-bpmn.png" width="100%">
+    <img src="images/diagrama-01.png" width="100%">
 </p>
 
 ---
@@ -35,7 +35,7 @@ Abaixo está a representação visual do fluxo principal de agendamento automati
 O processo principal possui um subprocesso responsável pelo agendamento e envio automático das notificações de proximidade da consulta (24h, 12h, 4h e 1h antes do atendimento).
 
 <p align="center">
-    <img src="images/subprocesso.png" width="75%">
+    <img src="images/subtarefa-02.png" width="75%">
 </p>
 
 ---
@@ -72,27 +72,10 @@ Contém:
 - Histórias de Usuário;
 - Critérios de Aceite utilizando Gherkin (Dado / Quando / Então).
 
-➡️ **Baixar Documento Completo (PDF)**
+➡️ **Baixar Documento Completo (engenharia-requisitos-clinica-medlife.pdf)**
 
 ---
 
-## 📂 Diagramas BPMN
-
-### Fluxo Principal
-
-➡️ **Baixar Fluxo BPMN (PDF)**
-
-➡️ **Baixar Fluxo BPMN (.bpmn)**
-
----
-
-### Subprocesso
-
-➡️ **Baixar Subprocesso (PDF)**
-
-➡️ **Baixar Subprocesso (.bpmn)**
-
----
 
 ## 🛠️ Ferramentas Utilizadas
 
