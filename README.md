@@ -4,6 +4,24 @@ Este repositório apresenta a arquitetura de processos, modelagem analítica em 
 
 ---
 
+## 💾 Downloads e Acesso Rápido
+
+Acesse e baixe rapidamente a documentação técnica, os diagramas ou o arquivo fonte editável do projeto:
+
+[![Baixar Documento de Requisitos (PDF)](https://img.shields.io/badge/Download-Engenharia_de_Requisitos_(PDF)-2ea44f?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](./engenharia-requisitos-clinica-medlife.pdf)
+[![Baixar Modelo BPMN Editável](https://img.shields.io/badge/Download-Arquivo_BPMN_Editável-0052cc?style=for-the-badge&logo=bizagi&logoColor=white)](./diagrama-bpmn.bpmn)
+
+<br/>
+
+| Recurso / Artefato | Descrição | Link de Download / Visualização |
+| :--- | :--- | :---: |
+| 📄 **Documentação de Requisitos** | Especificação completa (KPIs, ROI, Histórias de Usuário, Gherkin) | [⬇️ Baixar PDF](./engenharia-requisitos-clinica-medlife.pdf) |
+| 🔄 **Diagrama BPMN (Editável)** | Arquivo fonte do Bizagi / modelador BPMN | [⬇️ Baixar .BPMN](./diagrama-bpmn.bpmn) |
+| 🖼️ **Fluxo Principal BPMN** | Imagem em alta resolução do fluxo principal | [🖼️ Baixar PNG](./diagrama-01.png) |
+| 🖼️ **Subprocesso de Lembretes** | Imagem em alta resolução das notificações | [🖼️ Baixar PNG](./subtarefa-02.png) |
+
+---
+
 ## 🎯 O Problema Resolvido
 
 O projeto foi desenvolvido para solucionar gargalos identificados no processo de agendamento manual da clínica, tais como:
@@ -20,22 +38,30 @@ Como solução, foi modelado um fluxo automatizado utilizando um Agente de IA in
 
 ## 🗺️ Modelagem do Processo (BPMN)
 
-Abaixo está a representação visual do fluxo principal de agendamento automatizado.
+Abaixo está a representação visual dos fluxos modelados em BPMN 2.0.
 
-### Fluxo Principal
+### 📌 Fluxo Principal de Agendamento
 
 <p align="center">
-    <img src="images/diagrama-01.png" width="100%">
+  <a href="./diagrama-01.png" target="_blank">
+    <img src="diagrama-01.png" alt="Fluxo Principal BPMN" width="100%" style="border-radius: 8px; border: 1px solid #e1e4e8;"/>
+  </a>
+  <br/>
+  <small><i>Clique na imagem para abrir em tamanho cheio ou <a href="./diagrama-01.png" download>faça o download aqui</a>.</i></small>
 </p>
 
 ---
 
-### Subprocesso de Lembretes de Consulta
+### 📌 Subprocesso de Lembretes de Consulta
 
 O processo principal possui um subprocesso responsável pelo agendamento e envio automático das notificações de proximidade da consulta (24h, 12h, 4h e 1h antes do atendimento).
 
 <p align="center">
-    <img src="images/subtarefa-02.png" width="75%">
+  <a href="./subtarefa-02.png" target="_blank">
+    <img src="subtarefa-02.png" alt="Subprocesso de Lembretes" width="85%" style="border-radius: 8px; border: 1px solid #e1e4e8;"/>
+  </a>
+  <br/>
+  <small><i>Clique na imagem para abrir em tamanho cheio ou <a href="./subtarefa-02.png" download>faça o download aqui</a>.</i></small>
 </p>
 
 ---
@@ -72,34 +98,29 @@ Contém:
 - Histórias de Usuário;
 - Critérios de Aceite utilizando Gherkin (Dado / Quando / Então).
 
-➡️ **Baixar Documento Completo (engenharia-requisitos-clinica-medlife.pdf)**
+👉 [**Clique aqui para baixar o Documento Completo (engenharia-requisitos-clinica-medlife.pdf)**](./engenharia-requisitos-clinica-medlife.pdf)
 
 ---
 
+## 🛠️ Ferramentas e Metodologias
 
-## 🛠️ Ferramentas Utilizadas
-
-- BPMN 2.0
-- Bizagi Modeler
-- Engenharia de Requisitos
-- Business Analysis
-- Business Analytics
-- Gherkin
-- WhatsApp Business
-- Modelagem de Processos
+![BPMN 2.0](https://img.shields.io/badge/BPMN-2.0-0052cc?style=flat-square)
+![Bizagi Modeler](https://img.shields.io/badge/Bizagi-Modeler-1890ff?style=flat-square)
+![Engenharia de Requisitos](https://img.shields.io/badge/Engenharia-Requisitos-2ea44f?style=flat-square)
+![Business Analysis](https://img.shields.io/badge/Business-Analysis-orange?style=flat-square)
+![Gherkin](https://img.shields.io/badge/BDD-Gherkin-23d160?style=flat-square)
+![WhatsApp Business](https://img.shields.io/badge/WhatsApp-Business-25D366?style=flat-square&logo=whatsapp&logoColor=white)
 
 ---
 
 ## 👨‍💻 Autor
 
-**Álvaro Costa**
-
-Analista de Sistemas | Analista de Negócios e Requisitos
+**Álvaro Costa**  
+*Analista de Sistemas | Analista de Negócios e Requisitos*
 
 Especializado em:
-
 - Engenharia de Requisitos
 - BPMN
 - Business Analysis
 - Modelagem de Processos
-- Levantamento e Especificação de RequisitosD
+- Levantamento e Especificação de Requisitos
